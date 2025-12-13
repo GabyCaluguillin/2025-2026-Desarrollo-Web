@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deber Semana 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <head>
+        <h1>Mi sitio web</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
+                <li><a href="#tabla">Tabla</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </head>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos</h2>
+            <article>
+            
+                <p>
+                    Esta página fue creada para practicar <strong>HTML5</strong> y el uso de 
+                    etiquetas <strong>semánticas</strong>.
+                </p>
+                <p>
+                    Aquí se muestran ejemplos de texto, listas, imágenes, videos, tablas y formularios.
+                </p>
+                </p>
+                    Acontinuacion se presentará
+                </p>
+
+                <ol>
+                    <li>Aprender la estructura básica de un documento HTML.</li>
+                    <li>Organizar el contenido de forma clara.</li>
+                    <li>Usar etiquetas modernas de HTML5.</li>
+                </ol>
+
+                <ul>
+                    <li>Proyecto simple.</li>
+                    <li>Código fácil de leer.</li>
+                    <li>Pensado para principiantes.</li>
+                </ul>
+
+                <p>
+                    Para más información sobre como crear HTML puedes visitar 
+                    <a href="https://www.um.es/docencia/barzana/DAWEB/Lenguaje-de-programacion-HTML-1.pdf" target="_blank">
+                        este sitio de documentación
+                    </a>.
+                </p>
+            </article>
+        </section>
+
+        <section id="multimedia">
+            <h2>Multimedia</h2>
+
+            <article>
+                <h3>Imagen referencial</h3>
+                <img src="img/html uea.jpg" alt="">
+            </article>
+
+            <article>
+                <h3>Video</h3>
+                <video controls width="400">
+                    <source src="VIDEO/VIDEO PARA PG.mp4" type="">
+                    
+                </video>
+            </article>
+        </section>
+
+        <section id="tabla">
+            <h2>Temas de la Semana</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tema</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Etiquetas semánticas</td>
+                        <td>header, nav, main, section, article y footer.</td>
+                    </tr>
+                    <tr>
+                        <td>Multimedia</td>
+                        <td>Uso de imágenes y videos en una página web.</td>
+                    </tr>
+                    <tr>
+                        <td>Formularios</td>
+                        <td>Captura de datos básicos del usuario.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Formulario de contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>2025/2026 Desarrollo web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
