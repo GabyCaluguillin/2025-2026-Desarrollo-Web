@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+}
+
+span {
+    color: red;
+    font-size: 12px;
+}
+
+.valido {
+    border: 2px solid green;
+}
+
+.invalido {
+    border: 2px solid red;
+}
